@@ -16,10 +16,11 @@ interface ClientInterface
 
     /**
      * @param $name
-     * @param RegionInterface $region
+     * @param RegionInterface  $region
      * @param FlavourInterface $flavour
-     * @param ImageInterface $image
-     * @param array $options
+     * @param ImageInterface   $image
+     * @param array            $options
+     *
      * @return mixed
      */
     public function createServer(

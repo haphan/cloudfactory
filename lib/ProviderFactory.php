@@ -8,7 +8,7 @@ class ProviderFactory
 {
     /**
      * @param string $provider
-     * @param array $parameters
+     * @param array  $parameters
      *
      * @return ClientInterface
      */
@@ -28,9 +28,9 @@ class ProviderFactory
         $namespace = 'Haphan\\CloudFactory\\Client\\';
 
         return [
-            Provider::OPEN_STACK    => $namespace . 'OpenStack',
-            Provider::DIGITAL_OCEAN => $namespace . 'DigitalOcean',
-            Provider::AZURE         => $namespace . 'Azure'
+            Provider::OPEN_STACK => $namespace.'OpenStack',
+            Provider::DIGITAL_OCEAN => $namespace.'DigitalOcean',
+            Provider::AZURE => $namespace.'Azure',
         ];
     }
 }

@@ -2,7 +2,6 @@
 
 namespace Haphan\CloudFactory\Exception;
 
-class InvalidProviderException extends \RuntimeException
+class RequiredParameterNotFoundException extends \RuntimeException
 {
-
 }

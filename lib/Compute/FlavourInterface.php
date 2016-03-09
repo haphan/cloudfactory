@@ -6,5 +6,4 @@ use Haphan\CloudFactory\ProviderCompatibleInterface;
 
 interface FlavourInterface extends ProviderCompatibleInterface
 {
-
 }

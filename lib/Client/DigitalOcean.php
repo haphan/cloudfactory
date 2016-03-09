@@ -58,6 +58,7 @@ class DigitalOcean implements ClientInterface
      * Validate input parameters. Returns false if $params does not have all required keys.
      *
      * @param array $params
+     *
      * @return bool
      */
     private function validParams(array $params)
@@ -94,11 +95,11 @@ class DigitalOcean implements ClientInterface
         }
 
         $defaultOptions = [
-            'ssh_keys'           => [],
-            'backups'            => false,
-            'ipv6'               => false,
+            'ssh_keys' => [],
+            'backups' => false,
+            'ipv6' => false,
             'private_networking' => false,
-            'user_data'          => null,
+            'user_data' => null,
         ];
 
         $options = array_merge($defaultOptions, $options);
