@@ -1,0 +1,22 @@
+{
+    "name": "haphan/cloudfactory",
+    "description": "cloudfactory is a standard library for PHP that abstracts away differences among multiple cloud providers.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ha Phan",
+            "email": "thanhha.work@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "rackspace/php-opencloud": "^1.16",
+        "toin0u/digitalocean-v2": "^2.1",
+        "guzzle/guzzle": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "lib/"
+        }
+    }
+}
