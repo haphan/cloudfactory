@@ -19,8 +19,6 @@ class DigitalOcean implements ClientInterface
 
     private $requiredParams = [self::TOKEN];
 
-    private $optionalParams = [];
-
     private $params = null;
 
     /**@var DigitalOceanV2 */
@@ -124,41 +122,41 @@ class DigitalOcean implements ClientInterface
 
     public function getServer()
     {
-        // TODO: Implement getServer() method.
+        throw new \Exception('Not supported!');
     }
 
     public function destroyServer()
     {
-        // TODO: Implement destroyServer() method.
+        throw new \Exception('Not supported!');
     }
 
     public function getImages()
     {
-        // TODO: Implement getImages() method.
+        throw new \Exception('Not supported!');
     }
 
     public function getImage()
     {
-        // TODO: Implement getImage() method.
+        throw new \Exception('Not supported!');
     }
 
     public function destroyImage()
     {
-        // TODO: Implement destroyImage() method.
+        throw new \Exception('Not supported!');
     }
 
     public function createImage()
     {
-        // TODO: Implement createImage() method.
+        throw new \Exception('Not supported!');
     }
 
     public function getFlavors()
     {
-        // TODO: Implement getFlavors() method.
+        throw new \Exception('Not supported!');
     }
 
     public function getFlavor()
     {
-        // TODO: Implement getFlavor() method.
+        throw new \Exception('Not supported!');
     }
 }
