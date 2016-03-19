@@ -12,7 +12,8 @@
     "require": {
         "rackspace/php-opencloud": "^1.16",
         "toin0u/digitalocean-v2": "^2.1",
-        "guzzle/guzzle": "^3.9"
+        "guzzle/guzzle": "^3.9",
+        "php-opencloud/openstack": "^2.0"
     },
     "autoload": {
         "psr-4": {
