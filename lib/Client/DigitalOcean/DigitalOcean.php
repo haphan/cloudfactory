@@ -1,6 +1,6 @@
 <?php
 
-namespace Haphan\CloudFactory\Client;
+namespace Haphan\CloudFactory\Client\DigitalOcean;
 
 use DigitalOceanV2\Adapter\GuzzleAdapter;
 use DigitalOceanV2\DigitalOceanV2;

@@ -2,6 +2,6 @@
 
 namespace Haphan\CloudFactory\Exception;
 
-class InvalidProviderException extends \RuntimeException
+class InvalidProviderException extends Exception
 {
 }

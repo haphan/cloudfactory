@@ -2,6 +2,6 @@
 
 namespace Haphan\CloudFactory\Exception;
 
-class IncompatibleArgumentException extends \RuntimeException
+class IncompatibleArgumentException extends Exception
 {
 }
